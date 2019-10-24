@@ -77,3 +77,11 @@ td {
     
 
 }
+
+#green>h1 {
+    margin: 10px;
+}
+
+#red>h1 {
+    margin: 10px;
+}
