@@ -57,7 +57,7 @@ td {
 #green {
     background-color: lightgreen;
     width: 40%;
-    height: 135px;
+    height: 160px;
     z-index: 2;
     position: absolute;
     left: 15%;
@@ -68,7 +68,7 @@ td {
 #red {
     background: lightcoral;
     width: 55%;
-    height: 120px;
+    height: 155px;
     text-align: right;
     z-index: 1;
     position: absolute;
