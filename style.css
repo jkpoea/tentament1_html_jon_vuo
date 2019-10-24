@@ -1,0 +1,79 @@
+#list {
+    width: 100%;
+    height: 100%;
+    border: 3px solid black;
+}
+
+ul {
+    background: white;
+    display: inline;
+    margin: 0;
+    list-style: none;
+}
+
+
+a:link {
+    color: black;
+    text-decoration: underline;
+    
+}
+
+@media only screen and (min-width:600px) {
+    
+    #list {
+        width: 100%;
+        background: black;
+    }
+
+    ul {
+        background: black;
+    }
+
+    #Sidor {
+        display: inline;
+    
+    }
+
+    a:link {
+        color: white;
+    }
+}
+
+table {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.blu {
+    background: lightblue;
+    width: 800px;
+    height: 400px;
+    position: relative;
+}
+
+#green {
+    background-color: lightgreen;
+    width: 40%;
+    height: 135px;
+    z-index: 2;
+    position: absolute;
+    left: 15%;
+    top: 30%;
+
+}
+
+#red {
+    background: lightcoral;
+    width: 55%;
+    height: 120px;
+    text-align: right;
+    z-index: 1;
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+    
+
+}
